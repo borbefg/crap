@@ -1,8 +1,12 @@
 {
 	"require": {
-		"phpunit/phpunit": "3.7.*"
+		"phpunit/phpunit": "3.7.*",
+		"fzaninotto/faker": "1.4.*"
 	},
 	"autoload": {
-		"psr-0": {"Classes": "src"}
+		"psr-0": {
+			"Classes": "src",
+			"Faker": "vendor/fzaninotto/faker/src"
+		}
 	}
 }
